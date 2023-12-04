@@ -29,7 +29,7 @@ public class CidadeController {
     }
 
     @PostMapping("/criar")
-    public String criar(@Valid Cidade cidade) {
+    public String criar(Cidade cidade) {
 
         cidades.add(cidade);
 
