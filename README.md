@@ -3,7 +3,7 @@
 ## Sobre a disciplina
 Essa disciplina é oferecida no curso de [pós-graduação online em Java](http://pos-graduacao-ead.cp.utfpr.edu.br/java/) da Universidade Tecnológica Federal do Paraná - Campus Cornélio Procópio.
 
-A disciplina é ministrada pelo [prof. Gabriel Costa Silva](https://gabrielcostasilva.github.io/personal-website/) desde 2019/2. Este repositório está ativo desde Setembro/2022.
+A disciplina é ministrada pelo [prof. Gabriel Costa Silva](https://gabrielcostasilva.github.io/personal-website/) desde 2019/2. 
 
 ## Objetivo
 O objetivo geral dessa disciplina é capacitar o estudante para criar aplicações Web funcionais usando Java e o framework Spring Boot. 
@@ -35,5 +35,3 @@ As _branches_ estão organizadas de acordo com as semanas e os tópicos de aula.
 - __Semana 07:__ A maioria das aplicações Web têm algum tipo de segurança. Segurança é um termo amplo que abrange vários aspectos, como conexão segura, cifragem de dados entre outros. Nesta seção, nós vamos focar em dois dos mecanismos mais comuns de segurança: autenticação e autorização. Esse tópico é tão grande que o Spring tem um projeto inteiro só pra cuidar disso: o Spring Security. Essa seção se concentra naquilo que é fundamental para os mecanismos de autenticação e autorização, incluindo a definição de usuários em um banco de dados e suas permissões.
 
 - __Semana 08:__ A penúltima aula aborda três tópicos complementares no contexto do aplicativo que estamos usando como exemplo, mas importantes no desenvolvimento de aplicações Web. Listeners permitem empregar o padrão publisher-subscriber (observer) de uma forma muito simples com o Spring Boot. Sessões e cookies permitem armazenar dados temporariamente. Enquanto o primeiro guarda dados em um espaço na memória do servidor, o outro guarda dados diretamente no navegador.
-
-- __Semana 09:__ A última aula mostra como usar Single Sign-on (SSO) para autenticar um usuário usando o serviço do Google e permitir o acesso à aplicação CRUD.
