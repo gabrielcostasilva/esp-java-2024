@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import jakarta.validation.Valid;
+
 @Controller
 public class CidadeController {
 
@@ -27,7 +29,7 @@ public class CidadeController {
     }
 
     @PostMapping("/criar")
-    public String criar(Cidade cidade) {
+    public String criar(@Valid Cidade cidade) {
 
         cidades.add(cidade);
 
